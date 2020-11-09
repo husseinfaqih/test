@@ -1,0 +1,148 @@
+body{
+	background-color:#FF00FF;
+	color:#EEFF00;
+	/* font-family:"Lucida Console", Monaco, monospace; */
+	font-size:20px;
+	line-height:1.5em;
+	cursor:crosshair;
+
+  text-align: center;
+  width: 100%;
+  margin-top: 5em;
+  /* letter-spacing: 25px; */
+
+
+}
+
+@font-face {
+font-family: "Mario";
+src: url(font/ARCADE_I.TTF);
+font-style: normal;
+}
+
+.pageC{
+	text-transform: lowercase;
+	letter-spacing: 10px;
+
+	position: absolute;
+	top: 10%;
+	left: 10%;
+
+	font-style: italic;
+	text-decoration: none;
+}
+.pageF{
+	text-transform: lowercase;
+	letter-spacing: 10px;
+
+	position: absolute;
+	top: 20%;
+	left: 10%;
+
+	font-style: italic;
+	text-decoration: none;
+}
+.pageG{
+	text-transform: lowercase;
+	letter-spacing: 10px;
+
+	position: absolute;
+	top: 30%;
+	left: 10%;
+
+	font-style: italic;
+	text-decoration: none;
+}
+.pageH{
+	text-transform: lowercase;
+	letter-spacing: 10px;
+
+	position: absolute;
+	top: 40%;
+	left: 10%;
+
+	font-style: italic;
+	text-decoration: none;
+}
+.pageI{
+	text-transform: lowercase;
+	letter-spacing: 10px;
+
+	position: absolute;
+	top: 50%;
+	left: 10%;
+
+	font-style: italic;
+	text-decoration: none;
+}
+.pageJ{
+	text-transform: lowercase;
+	letter-spacing: 10px;
+
+	position: absolute;
+	top: 60%;
+	left: 10%;
+
+	font-style: italic;
+	text-decoration: none;
+}
+.pageK{
+	text-transform: lowercase;
+	letter-spacing: 10px;
+
+	position: absolute;
+	top: 70%;
+	left: 10%;
+
+	font-style: italic;
+	text-decoration: none;
+}
+.pageL{
+	text-transform: lowercase;
+	letter-spacing: 10px;
+
+	position: absolute;
+	top: 80%;
+	left: 10%;
+
+	font-style: italic;
+	text-decoration: none;
+}
+
+.pageN{
+	text-transform: lowercase;
+	letter-spacing: 10px;
+
+	position: absolute;
+	top: 100%;
+	left: 10%;
+
+	font-style: italic;
+	text-decoration: none;
+}
+.pageO{
+	text-transform: lowercase;
+	letter-spacing: 10px;
+
+	position: absolute;
+	top: 110%;
+	left: 10%;
+
+	font-style: italic;
+	text-decoration: none;
+}
+
+
+  #output{
+  	text-transform: lowercase;
+  	/* letter-spacing: 5px; */
+  	font-size:20px;
+    line-height:1.5em;
+
+    margin: 3em;
+    text-align:justify;
+    /* letter-spacing: 25px; */
+
+  	/* font-style: italic; */
+
+  	}

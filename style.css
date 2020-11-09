@@ -1,0 +1,19 @@
+body{
+	/* background-color:#f5430c; */
+	color:#F55D3E;
+
+}
+
+
+.pageB{
+		text-transform: lowercase;
+		letter-spacing: 10px;
+
+		position: absolute;
+	    top: 50px;
+	    left: 50px;
+
+		font-style: italic;
+		text-decoration: none;
+
+		}

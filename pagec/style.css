@@ -1,0 +1,164 @@
+
+.pageE{
+	text-transform: lowercase;
+	letter-spacing: 10px;
+
+	position: absolute;
+	top: 200;
+	left: 100;
+
+	font-style: italic;
+	text-decoration: none;
+}
+.pageF{
+	text-transform: lowercase;
+	letter-spacing: 10px;
+
+	position: absolute;
+	top: 300;
+	left: 100;
+
+	font-style: italic;
+	text-decoration: none;
+}
+.pageG{
+	text-transform: lowercase;
+	letter-spacing: 10px;
+
+	position: absolute;
+	top: 400;
+	left: 100;
+
+	font-style: italic;
+	text-decoration: none;
+}
+.pageH{
+	text-transform: lowercase;
+	letter-spacing: 10px;
+
+	position: absolute;
+	top: 500;
+	left: 100;
+
+	font-style: italic;
+	text-decoration: none;
+}
+.pageI{
+	text-transform: lowercase;
+	letter-spacing: 10px;
+
+	position: absolute;
+	top: 600;
+	left: 100;
+
+	font-style: italic;
+	text-decoration: none;
+}
+.pageJ{
+	text-transform: lowercase;
+	letter-spacing: 10px;
+
+	position: absolute;
+	top: 700;
+	left: 100;
+
+	font-style: italic;
+	text-decoration: none;
+}
+.pageK{
+	text-transform: lowercase;
+	letter-spacing: 10px;
+
+	position: absolute;
+	top: 800;
+	left: 100;
+
+	font-style: italic;
+	text-decoration: none;
+}
+.pageL{
+	text-transform: lowercase;
+	letter-spacing: 10px;
+
+	position: absolute;
+	top: 900;
+	left: 100;
+
+	font-style: italic;
+	text-decoration: none;
+}
+.pageM{
+	text-transform: lowercase;
+	letter-spacing: 10px;
+
+	position: absolute;
+	top: 1000;
+	left: 100;
+
+	font-style: italic;
+	text-decoration: none;
+}
+.pageN{
+	text-transform: lowercase;
+	letter-spacing: 10px;
+
+	position: absolute;
+	top: 1100;
+	left: 100;
+
+	font-style: italic;
+	text-decoration: none;
+}
+.pageO{
+	text-transform: lowercase;
+	letter-spacing: 10px;
+
+	position: absolute;
+	top: 1200;
+	left: 100;
+
+	font-style: italic;
+	text-decoration: none;
+}
+
+
+
+
+@font-face {
+	font-family: "Mario";
+	src: url(font/DS-DIGII.TTF);
+	font-style: normal;
+}
+
+body{
+	background-color:#FFF;
+	/* color:#F55D3E;
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:30px;
+	line-height:1.5em;
+	margin:300;
+	cursor:url(EAP.png), pointer; */
+}
+
+/* .END{
+text-transform: lowercase;
+letter-spacing: 25px;
+font-size:30px;
+
+text-align: center;
+
+font-style: italic;
+text-decoration: none;
+}
+
+.ERASE{
+text-transform: lowercase;
+letter-spacing: 25px;
+font-size:30px;
+
+text-align: center;
+
+
+font-style: italic;
+text-decoration: none;
+} */
