@@ -9,7 +9,7 @@ var counts= {};
 
 function preload() {
   lines = loadStrings('blackcat.txt', count);
-  font = loadFont('font/LLPIXEL3.ttf');
+  font = loadFont('font/ARCADE_I.TTF');
 
 }
 
@@ -19,13 +19,13 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
 
   let colors = [color(255, 0, 11),
-                color(255, 254, 59)]
-                // color(0, 0, 0),
-                // color(0, 255, 58),
-                // color(255, 0, 248)];
+                color(255, 254, 59),
+                color(0, 0, 0),
+                color(0, 255, 58),
+                color(255, 0, 248)];
 
 
-  background (colors[floor(random(colors.length))]);
+  background (color(0, 0, 0));
   frameRate(2);
 
 // noCanvas();
@@ -49,10 +49,10 @@ function draw() {
 /////////////////////
 let alpha = 256;
 let colors = [color(255, 0, 11, alpha),
-              color(255, 254, 59, alpha)]
-              // color(0, 0, 0, alpha),
-              // color(0, 255, 58, alpha),
-              // color(255, 0, 248, alpha)];
+              color(255, 254, 59, alpha),
+              color(0, 0, 0, alpha),
+              color(0, 255, 58, alpha),
+              color(255, 0, 248, alpha)];
 /////////////////////
 
 
@@ -61,7 +61,7 @@ let colors = [color(255, 0, 11, alpha),
     var xpos=random(10, width - 10)
     var ypos=random(10, height - 10)
 
-    let bbox = font.textBounds(rs, xpos, ypos, 50);
+    let bbox = font.textBounds(rs, xpos, ypos, 30);
 
     // fill('red');
     // rect(xpos-30,ypos-10,60,20)
@@ -73,8 +73,8 @@ let colors = [color(255, 0, 11, alpha),
 rect(bbox.x+10,ypos+7, random(550), bbox.h);
 
     textFont(font);
-    textSize(50);
-    fill('black');
+    textSize(30);
+    fill('white');
     text((rs), xpos, ypos);
 
 
@@ -112,5 +112,5 @@ function mousePressed() {
                 // color(255, 0, 248)];
 
 
-  background (colors[floor(random(colors.length))]);
+  background (color(0, 0, 0));
 }
