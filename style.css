@@ -4,6 +4,11 @@ body{
 
 }
 
+@font-face {
+font-family: "Mario";
+src: url(font/8-bit-hud.ttf);
+font-style: normal;
+}
 
 .pageB{
 		text-transform: lowercase;
